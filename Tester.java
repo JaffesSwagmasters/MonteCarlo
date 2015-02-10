@@ -9,7 +9,7 @@ public static void main(String[] args){
 			double randx = monteCarlo.nextRainDrop_x();
 			double randy = monteCarlo.nextRainDrop_y();
 			
-			if(monteCarlo.insideCirle(randx, randy)){
+			if(monteCarlo.insideCircle(randx, randy)){
 				cirCount++;
 				
 			}
