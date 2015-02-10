@@ -20,7 +20,7 @@ public class MonteCarlo {
 		return (rndm.nextDouble()*2*r)+(k-r);
 	}
 	
-	public boolean insideCirle(double x , double y){
+	public boolean insideCircle(double x , double y){
 		
 		return Math.pow((x-h), 2)+Math.pow((y-k), 2)<=Math.pow(r,2);
 	}
